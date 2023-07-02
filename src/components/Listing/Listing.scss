@@ -1,0 +1,17 @@
+@use 'styles/variables';
+
+// $listBlock: '.#{variables.$ns}item-list';
+
+// #{$listBlock} {
+//     display: grid;
+//     grid-template-columns: repeat(5, 1fr);
+//     gap: 15px;
+// }
+
+$itemBlock: '.#{variables.$ns}item';
+
+#{$itemBlock} {
+    &__img {
+        max-width: 100%;
+    }
+}
